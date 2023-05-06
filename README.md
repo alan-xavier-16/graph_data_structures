@@ -47,6 +47,31 @@ An adjacency list represents a graph as an `array of linked lists`. The `index` 
 
 An adjacency list is efficient in terms of storage because we only need to store the values for the edges.
 
+## Graph Operations
+
+Common graph operations are:
+
+- Check if the element is present in the graph
+- Graph Traversal
+- Add elements (vertex, edges) to graph
+- Finding the path from one vertex to another
+
+## Spanning Tree and Minimum Spanning Tree
+
+- An `undirected` graph is a graph where the edges do not have any direction.
+- A `connected` graph is a graph where there is **always** a path from one vertex to any other vertex.
+- A `complete` graph is an undirected graph where every pair of vertices is connected by an edge.
+
+### Spanning tree
+
+A spanning tree is a sub-graph of an **undirected** graph, which includes `all the vertices` with a `minimum possible number of edges`. The edges may or may not have `weights` assigned to them.
+
+The **total number** of spanning trees with `n` vertices that can be created from a complete graph is `n^(n-2)`.
+
+### Minimum Spanning Tree
+
+A minimum spanning tree is a spanning tree where the `sum` of the `weight` of the edges is as `minimum` as possible.
+
 ## References
 
-1. [Programiz Tree Data Structures](https://www.programiz.com/dsa/binary-tree)
+1. [Programiz Graph Data Structures](https://www.programiz.com/dsa/graph)
